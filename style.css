@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 25px;
+    font-family: Arial,  sans-serif;
+    background-color: white;
+    color: #ffff;
+}
+.task-form{
+    background-color: black;
+    width: 100%;
+    max-width: 505px;
+    margin: 0 auto 20px;
+    padding: 25px;
+    border-radius: 6px;
+}
+h1{
+    font-size: 30px;
+    margin-top: 0;
+}
+label{
+    display: block;
+    margin: 18px 0 10px;
+}
+input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    font-size: 15px;
+}
+button{
+    padding: 10px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+#addBtn{
+    margin-top: 16px;
+    background-color: blue;
+    color: white;
+}
+.filters{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+#allBtn{
+    background-color: rebeccapurple;
+}
+#doneBtn{
+    background-color: green;
+    color: white;
+}
+#createdBtn{
+    background-color: grey;
+    color: white;
+}
+.table-container{
+    width: 90%;
+    margin: auto;
+    overflow-x: auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: black;
+    text-align: left;
+}
+th,
+td{
+    padding: 13px 8px;
+    border-bottom: 1px solid gray;
+}
+th{
+    background-color: black;
+}
+tbody tr :nth-child(odd) {
+    background-color: #212529;
+}
+tbody tr :nth-child(even) {
+    background-color: #212529;
+}
+.status-btn{
+    color: white;
+}
+.status-done{
+    background-color: green;
+}
+.status-created{
+    background-color: red;
+}
+.delete-btn{
+    background-color: red;
+    color: white;
+    margin-right: 4px;
+}
+.edit-btn{
+    background-color: yellow;
+    color: white;
+}
+td button:hover {
+    opacity: 0,85;
+}
+.delete-btn:hover {
+    background-color: #bb2d3b;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: #e0a800;
+    cursor: pointer;
+}
+
